@@ -1,7 +1,7 @@
 package org.kartashov.part9_streams.examples.presentation.ex9_the_wrong_way;
 
-import certification.chapter4.stream.examples.presentation1.common.Gender;
-import certification.chapter4.stream.examples.presentation1.common.Person;
+import org.kartashov.part9_streams.examples.presentation.common.Gender;
+import org.kartashov.part9_streams.examples.presentation.common.Person;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,7 +1,7 @@
 package org.kartashov.part9_streams.examples.presentation.ex17_parallel_streams;
 
-import certification.chapter4.stream.examples.presentation1.common.Gender;
-import certification.chapter4.stream.examples.presentation1.common.Person;
+import org.kartashov.part9_streams.examples.presentation.common.Gender;
+import org.kartashov.part9_streams.examples.presentation.common.Person;
 
 import java.util.Arrays;
 import java.util.List;

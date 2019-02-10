@@ -21,6 +21,8 @@ import java.lang.reflect.*;
  * * mocking the behavior of the original class (Mocks)
  *
  * * implement lazy access to costly resources (Lazy)
+ *
+ * https://www.baeldung.com/java-dynamic-proxies
  */
 public class ProxyDemo {
 
