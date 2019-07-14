@@ -1,4 +1,4 @@
-package org.kartashov.part12_nio;
+package org.kartashov.part12_nio.path;
 
 import java.net.URI;
 import java.net.URISyntaxException;

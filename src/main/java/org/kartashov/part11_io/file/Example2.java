@@ -1,28 +1,32 @@
-package org.kartashov.part11_io;
+package org.kartashov.part11_io.file;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.time.Instant;
 
 /**
  * Created by Serhii K. on 3/14/2016.
  */
-public class TestClass1 {
+public class Example2 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         System.out.println(System.getProperty("file.separator"));
         System.out.println(java.io.File.separator);
 
-        File file = new File("/home/smith/data/zoo.txt");
+        File file1 = new File("./io/data/zoo.txt");
+        showFileData("./io/data/zoo.txt");
+
+        File file = new File("/io/data/zoo.txt");
         System.out.println(file.exists());
 
-        File parent = new File("/home/smith");
+        File parent = new File("/io");
         File child = new File(parent, "data/zoo.txt");
 
-        showFileData("C:\\data\\zoo.txt");
+        showFileData("io\\data\\zoo.txt");
         System.out.println();
-        showFileData("F:\\Dropbox\\projects\\JAVA_CERTIFICATIONS\\1Z0-809\\pom.xml");
+        showFileData("build.gradle");
         System.out.println();
-        showFileData("F:\\Dropbox\\projects\\JAVA_CERTIFICATIONS\\1Z0-809");
+        showFileData(".");
     }
 
 //    public static void main2(String[] args) throws Exception {

@@ -7,7 +7,7 @@ Stream Operations:
 3. Marking the Stream (include mark(int) and reset() methods to move the stream back to an earlier position)
 
 Input - ABCD
-
+```
 InputStream is = ...
 System.out.print ((char)is.read());
 if(is.markSupported()) {
@@ -19,18 +19,19 @@ if(is.markSupported()) {
 System.out.print((char)is.read());
 System.out.print((char)is.read());
 System.out.print((char)is.read());
-
+```
 Output - ABCBCD
+
 
 4. Skipping over Data (a skip(long) method, which as you might expect skips over a certain number of bytes)
 
 Input - TIGERS
-
+```
 InputStream is = . . .
 System.out.print ((char)is.read());
 is.skip(2)
 is.read();
 System.out.print((char)is.read());
 System.out.print((char)is.read());
-
+```
 Output - TRS

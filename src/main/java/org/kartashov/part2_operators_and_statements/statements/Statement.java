@@ -109,6 +109,18 @@ public class Statement {
             System.out.print(value + ", ");
 
         }
+        Day day = Day.MONDAY;
+        // add '--enable-preview' as JVM option and compiler parameter. Available only for java 12
+//        switch (day) {
+//            case MONDAY, FRIDAY, SUNDAY -> System.out.println(6);
+//            case TUESDAY                -> System.out.println(7);
+//            case THURSDAY, SATURDAY     -> System.out.println(8);
+//            case WEDNESDAY              -> System.out.println(9);
+//        }
+    }
+
+    enum Day {
+        MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
     }
 
     int roomInBelly = 5;
@@ -153,4 +165,6 @@ public class Statement {
     }*/
     //Object object[] = new Object[]{ "aaa", new Object(), new ArrayList(), new String[]{""} };
     //Object object[] = new Object[]{ "aaa", new Object(), new ArrayList(), {} };
+
+
 }

@@ -1,4 +1,4 @@
-package org.kartashov.part12_nio;
+package org.kartashov.part12_nio.file;
 
 import java.io.File;
 import java.nio.file.Path;

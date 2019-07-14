@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * {@link Reader} and {@link Writer} are character based.
+ *
  * Created by Serhii K. on 3/14/2016.
  */
 public class CopyTextFileSample {

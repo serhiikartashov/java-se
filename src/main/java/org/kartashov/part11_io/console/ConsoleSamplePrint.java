@@ -1,18 +1,19 @@
 package org.kartashov.part11_io.console;
 
 import java.io.Console;
+import java.util.Scanner;
 
 /**
  * Created by Serhii K. on 3/16/2016.
  */
 public class ConsoleSamplePrint {
 
-    // java -cp ./target/classes certification.chapter8.console.ConsoleSamplePrint
+    // java -cp ./out/production/classes org.kartashov.part11_io.console.ConsoleSamplePrint
     // If the virtual machine is started automatically, for example by a background job scheduler,
     // then it will typically not have a console.
     public static void main(String[] args) {
         Console console = System.console();
-        if(console == null) {
+        if (console == null) {
             throw new RuntimeException("Console not available");
         } else {
             console.writer().println("Welcome to Our Zoo!");

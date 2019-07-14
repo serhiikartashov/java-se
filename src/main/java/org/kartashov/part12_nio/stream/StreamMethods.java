@@ -1,4 +1,4 @@
-package org.kartashov.part12_nio;
+package org.kartashov.part12_nio.stream;
 
 import java.io.IOException;
 import java.nio.file.*;

@@ -4,6 +4,8 @@ import java.io.*;
 
 /**
  * Created by Serhii K. on 3/16/2016.
+ *
+ * Print* writes data in console
  */
 public class TestClass {
 
