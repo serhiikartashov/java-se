@@ -1,0 +1,3 @@
+grant Principal com.sun.security.auth.NTUserPrincipal "skart" {
+	permission org.kartashov.part18_security.jaas.authorization.MyPermission "test";
+};

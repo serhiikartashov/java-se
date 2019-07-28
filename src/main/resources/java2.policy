@@ -1,0 +1,3 @@
+grant Principal org.kartashov.part18_security.jaas.login_module.module.CustomPrincipal "user1" {
+	permission org.kartashov.part18_security.jaas.login_module.CustomPermission "test";
+};
