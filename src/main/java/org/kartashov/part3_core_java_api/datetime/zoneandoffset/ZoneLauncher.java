@@ -76,7 +76,7 @@ public class ZoneLauncher {
         String out2 = arrival.format(format);
         out.printf("ARRIVING: %s (%s)%n", out2, arrivingZone);
 
-        // літній час
+        // summer time
         if (arrivingZone.getRules().isDaylightSavings(arrival.toInstant())) {
             out.printf("  (%s daylight saving time will be in effect.)%n", arrivingZone);
         } else {

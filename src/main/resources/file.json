@@ -1,0 +1,14 @@
+{
+  "sa": 3,
+  "dtc": 2035,
+  "ttype": "696074848",
+  "genFailureDesc": "transmission system - fault ##35",
+  "appSpecific": {
+    "application": "tractors_utility_medium_hi_low_stg5",
+    "appFailureDesc": "wheel speed too high",
+    "standard": "wheel speed too high",
+    "originEcuDesc": "ucm1",
+    "visibleCustomerOffBoardDealer": true
+  }
+}
+

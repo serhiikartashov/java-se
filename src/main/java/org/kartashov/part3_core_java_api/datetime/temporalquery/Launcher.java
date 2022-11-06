@@ -15,7 +15,7 @@ public class Launcher {
         ZonedDateTime now = ZonedDateTime.now(UTC);
         System.out.println(now);
 
-        // точність
+        // Precision
         TemporalQuery<TemporalUnit> query = TemporalQueries.precision();
         System.out.printf("LocalDate precision is %s%n", LocalDate.now().query(query));         // Days
         System.out.printf("LocalDateTime precision is %s%n", LocalDateTime.now().query(query)); // Nanos
